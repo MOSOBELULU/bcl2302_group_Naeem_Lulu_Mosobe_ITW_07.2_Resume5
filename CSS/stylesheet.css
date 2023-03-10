@@ -1,3 +1,4 @@
+
 /* body */
 body {
     font-family:'Times New Roman', Times, serif;    
@@ -21,9 +22,11 @@ body {
     padding: 0px;
     text-align: justify;
     border: black solid;
-    
+    overflow: hidden;
     
 }
+
+
 /* photo align */
 .photo {
     text-align:center;
@@ -52,7 +55,7 @@ html, body {
     
 }
 /* flexbox-row2 */
-.flexbox-row2 {
+.body {
     height:fit-content;
     margin-bottom: 100px;
     float:right;
@@ -61,6 +64,7 @@ html, body {
     padding: 2%;
     
 }
+
 /* button back to top */
 #botton {
     background-color: black;
@@ -68,4 +72,121 @@ html, body {
     margin-top: 15%;
 }
 
+/* ----------------------------------------MEDI-------------------------------------- */
 
+@media only screen and (max-width:600px) {
+    .menu {
+        background-color:rgb(240, 189, 240) ;
+        margin-top: 0px;
+        padding: 0px;
+        text-align: justify;
+        border: black solid;
+        
+}
+img{
+    border-radius: 50%;
+}
+.menu h2{
+    font-size: small;
+}
+.heading1 {
+    font-size: smaller;
+}
+
+.body {
+    height:20%;
+    margin-bottom: 100px;
+    float:right;
+    background-color: #81bae3;
+    border: black solid;
+    padding: 2%;
+    font-size: small;
+}
+.footer{
+    font-size: smaller;
+    
+}
+.box {
+    font-size: smaller ;
+}
+.form {
+    font-size: smaller;
+}
+}
+/* -------------------------------medium-------------------------- */
+@media only screen and (min-width:601px) {
+    .menu {
+        background-color:rgb(136, 235, 244) ;
+        margin-top: 0px;
+        padding: 0px;
+        text-align: justify;
+        border: black solid;
+}
+img{
+    border-radius: 50%;
+}
+.menu h2{
+    font-size: medium;
+}
+.heading1 {
+    font-size: medium;
+}
+.body {
+    height:20%;
+    margin-bottom: 100px;
+    float:right;
+    background-color: rgb(136, 235, 244);
+    border: black solid;
+    padding: 2%;
+    font-size: medium;
+}
+.footer{
+    font-size: medium;
+    
+}
+.box {
+    font-size: medium ;
+}
+.form {
+    font-size: medium;
+}
+}
+/* -------------------------laptop----------------------------------- */
+@media only screen and (min-width:1024px) {
+    .menu {
+        background-color: fuchsia ;
+        margin-top: 0px;
+        padding: 0px;
+        text-align: justify;
+        border: black solid;
+        font-size: large;
+}
+img{
+    border-radius: 50%;
+}
+.menu h2{
+    font-size: large;
+}
+.heading1 {
+    font-size: large;
+}
+.body {
+    height:20%;
+    margin-bottom: 100px;
+    float:right;
+    background-color: #f6da0d;
+    border: black solid;
+    padding: 2%;
+    font-size: large;
+}
+.footer{
+    font-size: large;
+    
+}
+.box {
+    font-size: large ;
+}
+.form {
+    font-size: large;
+}
+}
